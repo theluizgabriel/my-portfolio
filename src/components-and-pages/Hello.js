@@ -1,5 +1,4 @@
 import React from 'react'
-import 'animate.css';
 
 function Hello() {
   return (
@@ -10,7 +9,7 @@ function Hello() {
         </div>
         <div className='flex'>
             <img src='https://i.imgur.com/bfeSgAs.png' alt='pc'
-            className='animate__animated animate__bounce animate__delay-2s' />
+            className='' />
         </div>
     </div>
   )
