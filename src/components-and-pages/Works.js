@@ -1,12 +1,13 @@
 import React from 'react'
-import 'animate.css';
+import WorkCards from './WorkCards'
 
 function Works() {
   return (
-    <div>
-      <h1>Works on Github</h1>
-
+    <div className='flex w-full items-center justify-center mt-20'>
+      <h1 className='flex text-3xl font-semibold mr-10'>works</h1>
+      <WorkCards />
     </div>
+
   )
 }
 

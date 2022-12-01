@@ -1,5 +1,4 @@
 import React from 'react'
-import 'animate.css';
 
 export default function Hello() {
   return (
