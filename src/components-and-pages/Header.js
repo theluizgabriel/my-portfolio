@@ -22,18 +22,16 @@ function Header() {
         </a>
         </div>
         <div className='flex w-1/4 justify-center'>
-            <a
-            href='#contact' 
-            className='outline outline-offset-2 outline-2 
-            outline-[#C576FA] pl-10 pr-10 pt-4 pb-4 rounded-lg w-1/3 text-center
-            '
+            <button
+                className='outline outline-offset-2 outline-2 
+                outline-[#C576FA] rounded-lg w-1/3 text-center'
             >
                 <span 
                 className='hover:before:content-["lg."] hover:ease-out hover:delay-100'
                 >
                 contact
                 </span>
-            </a>
+            </button>
         </div>
     </header>
   )
