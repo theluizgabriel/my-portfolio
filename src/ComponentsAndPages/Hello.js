@@ -7,18 +7,18 @@ export default function Hello() {
             <div className='flex'>
               <div className='flex flex-col'>
                 <span className='font-semibold text-2xl'>
-                  Hi, i’m Luiz Gabriel
+                  Olá, meu nome é Luiz Gabriel
                 </span>
-                <span className='font-light text-2xl'>welcome to my portfolio</span>
+                <span className='font-light text-xl text-end'>seja bem-vindo ao meu portfólio</span>
               </div>
-              <span class="hover:animate-[wave_3500ms_ease-in-out_2] text-5xl mb-2">
+              <span className="hover:animate-[wave_3500ms_ease-in-out_2] text-5xl mb-2 ml-4">
                   👋🏿
               </span>
             </div>
         </div>
         <div className='flex'>
             <img src='https://i.imgur.com/bfeSgAs.png' alt='pc'
-            className='transition-transform hover:-translate-y-4 hover:skew-x-3 hover:transition-1000' />
+            className='transition-transform hover:-translate-y-4 hover:skew-x-3' />
         </div>
     </div>
   )

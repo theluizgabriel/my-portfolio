@@ -1,8 +1,11 @@
-import Header from './components-and-pages/Header';
+import Header from './ComponentsAndPages/Header';
 import './App.css';
-import Hello from './components-and-pages/Hello';
-import AboutMe from './components-and-pages/AboutMe';
-import Works from './components-and-pages/Works';
+import Hello from './ComponentsAndPages/Hello';
+import AboutMe from './ComponentsAndPages/AboutMe';
+import Works from './ComponentsAndPages/Works';
+import Stacks from './ComponentsAndPages/Stacks';
+import Contact from './ComponentsAndPages/Contact';
+import Footer from './ComponentsAndPages/Footer';
 
 function App() {
   return (
@@ -11,8 +14,9 @@ function App() {
     <Hello />
     <AboutMe />
     <Works />
-    <div className="App">
-    </div>
+    <Stacks />
+    <Contact />
+    <Footer />
     </>
   );
 }
