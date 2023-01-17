@@ -52,7 +52,7 @@ export default function CarouselComponent() {
       background: '#FFFFFF',
     }}
   >
-    <Carousel height={480} width={550} yOrigin={40} yRadius={30}>
+    <Carousel height={480} width={600} yOrigin={40} yRadius={30}>
     {projects.map((p) => (
       <Paper
       elevation={3}
