@@ -7,6 +7,11 @@ module.exports = {
     maxWidth: {
       '1/2': '50%',
     },
+    screens: {
+      'sm': '375px',
+      'md': '820px',
+      'lg': '1280px',
+    },
     extend: {
       keyframes: {
         wave: {

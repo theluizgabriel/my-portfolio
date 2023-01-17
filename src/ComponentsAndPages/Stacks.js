@@ -3,7 +3,7 @@ import { stacks } from '../utils/stacks'
 
 export default function Stacks() {
   return (
-    <div className='flex w-full items-center justify-evenly mt-14'>
+    <div className='flex sm:flex-col lg:flex-row w-full items-center justify-evenly mt-14'>
         <div>
             <h1 className='text-3xl font-semibold aHeader2'>stacks</h1>
         </div>
