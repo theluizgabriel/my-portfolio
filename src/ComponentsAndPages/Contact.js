@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div className='flex justify-evenly mt-14 mb-14 px-12 items-center rounded-xl p-6' id='contact'>
-        <h1 className='text-3xl font-semibold contact-text'>contato</h1>
-      <div className='flex flex-col items-center justify-center bg-[#6b0afa] p-10 rounded-xl'>
+    <div className='flex flex-col lg:flex-row justify-evenly mt-14 mb-14 px-12 items-center rounded-xl p-6' id='contact'>
+        <h1 className='text-3xl font-semibold contact-text mb-8 lg:mb-0'>contato</h1>
+      <div className='flex flex-col items-center justify-center bg-[#6b0afa] p-10 rounded-xl mb-10 lg:mb-0'>
         <div className='flex'>
           <a href='https://github.com/theluizgabriel'>
             <img src='https://imgur.com/mzlCfdN.png' width='80px' height='80px' alt='github icon' />
