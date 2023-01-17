@@ -13,7 +13,7 @@ export default function Contact() {
             <img src='https://imgur.com/3dvZQ6F.png' width='80px' height='80px' alt='linkedin icon' />
           </a>
         </div>
-        <div className='flex items-center'>
+        <div className='flex flex-col lg:flex-row items-center'>
           <img src='https://imgur.com/IjmwcOZ.png' width='80px' height='80px' alt='email icon' />
           <p className='ml-4 text-white'>lgabrielpessoal@gmail.com</p>
         </div>

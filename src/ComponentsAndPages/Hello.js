@@ -4,7 +4,7 @@ export default function Hello() {
   return (
     <div className='flex sm:flex-col lg:flex-row w-full lg:justify-evenly lg:mt-16 
     sm:p-12 lg:p-0 sm:items-center'>
-      <span className='font-semibold text-2xl mb-6 sm:flex lg:hidden'>
+      <span className='font-semibold lg:text-2xl text-xl mb-6 sm:flex lg:hidden'>
           Olá, meu nome é Luiz Gabriel
       </span>
       <div className='flex sm:mb-10 lg:mb-0'>
@@ -17,9 +17,11 @@ export default function Hello() {
               <span className='font-semibold text-2xl sm:hidden lg:flex'>
                 Olá, meu nome é Luiz Gabriel
               </span>
-              <span className='font-light text-xl text-end sm:mb-4 lg:mb-0'>seja bem-vindo ao meu portfólio</span>
+              <span className='font-light lg:text-xl text-lg text-end sm:mb-4 lg:mb-0'>
+                seja bem-vindo ao meu portfólio
+              </span>
             </div>
-            <span className="animate-[wave_3500ms_ease-in-out_2] text-5xl mb-2 ml-4">
+            <span className="animate-[wave_3500ms_ease-in-out_2] lg:text-5xl text-4xl mb-2 ml-4">
                   👋🏿
             </span>
           </div>

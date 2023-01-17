@@ -3,17 +3,14 @@ import { slide as MenuHamburguer } from 'react-burger-menu'
 
 function Header() {
   return (
-    <header className='flex m-12 font-anek-telugu lg:items-baseline lg:justify-between 
+    <header className='w-full flex m-12 font-anek-telugu lg:items-baseline lg:justify-between 
     sm:items-center md:items-center' id='home'>
-        <div className='sm:flex md:flex lg:hidden w-full items-center'>
+        <div className='sm:flex lg:hidden w-full items-center'>
             <MenuHamburguer>
                 <a href='#about' className='text-black text-xl font-light mb-4'>sobre</a>
                 <a href='#works' className='text-black text-xl font-light mb-4'>projetos</a>
                 <a href='#contact' className='text-[#7822F9] text-xl font-light '>contato</a>
             </MenuHamburguer>
-            {/* <a href='#home' className='flex font-light text-3xl w-full justify-center'>
-                lg
-            </a> */}
         </div>
         <div className='sm:hidden md:hidden lg:block flex w-1/4 justify-center text-center'>
             <a href='#about' className='aHeader w-1/3'>

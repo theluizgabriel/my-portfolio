@@ -8,7 +8,7 @@ module.exports = {
       '1/2': '50%',
     },
     screens: {
-      'sm': '375px',
+      'sm': '320px',
       'md': '820px',
       'lg': '1280px',
     },

@@ -15,7 +15,7 @@ function AboutMe() {
         </div>
         <div className='flex justify-center'>
             <div className='flex flex-col lg:w-7/12 text-xl'>
-                <p className='text-center text-xl font-light bg-white rounded-xl p-4'>
+                <p className='text-center sm:text-lg lg:text-xl font-light bg-white rounded-xl p-4'>
                     Sou nascido e criado no Rio de Janeiro, tenho 22 anos e sempre tive uma forte ligação com a tecnologia,
                     desde pequeno sempre busquei aprimorar meus conhecimentos apenas por curiosidade.
                     Hoje estudo Desenvolvimento Web Full Stack na Trybe, onde tenho a oportunidade de aprender com tudo que o curso 
