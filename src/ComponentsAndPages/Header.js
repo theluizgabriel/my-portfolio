@@ -11,9 +11,9 @@ function Header() {
                 <a href='#works' className='text-black text-xl font-light mb-4'>projetos</a>
                 <a href='#contact' className='text-[#7822F9] text-xl font-light '>contato</a>
             </MenuHamburguer>
-            <a href='#home' className='flex font-bold text-3xl w-full justify-center'>
-                LuizGabriel
-            </a>
+            {/* <a href='#home' className='flex font-light text-3xl w-full justify-center'>
+                lg
+            </a> */}
         </div>
         <div className='sm:hidden md:hidden lg:block flex w-1/4 justify-center text-center'>
             <a href='#about' className='aHeader w-1/3'>

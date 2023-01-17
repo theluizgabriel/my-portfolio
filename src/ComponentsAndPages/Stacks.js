@@ -5,7 +5,7 @@ export default function Stacks() {
   return (
     <div className='flex sm:flex-col lg:flex-row w-full items-center justify-evenly mt-14'>
         <div>
-            <h1 className='text-3xl font-semibold aHeader2'>stacks</h1>
+            <h1 className='text-3xl font-semibold aHeader2 mb-8'>stacks</h1>
         </div>
           <div className='grid grid-cols-4 gap-4'>
                   {stacks.map((s)=> (
